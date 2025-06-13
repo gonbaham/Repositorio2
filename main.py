@@ -12,9 +12,9 @@ resultado = 0
 
 while True:
     opcion = int(input("Ingrese la opcion: "))
-    num1 = int(input("Ingrese numero 1: "))
-    num2 = int(input("Ingrese numero 2: "))
     if opcion == 1:
+        num1 = int(input("Ingrese numero 1: "))
+        num2 = int(input("Ingrese numero 2: "))
         resultado = num1 + num2
         print(f"El resultado es {resultado}.")
     elif opcion == 5:
